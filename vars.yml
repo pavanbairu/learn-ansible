@@ -26,7 +26,7 @@
 
 - name: Demo on files level variables
   hosts: all
-  var_files:
+  vars_files:
     - exvars.yml
   tasks:
     - name: print URL
